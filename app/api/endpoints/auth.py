@@ -167,15 +167,6 @@ async def revoke_api_key(
     return {"message": "API key revoked successfully"}
 
 
-async def get_current_active_user(
-    current_user: models.User = Depends(security.get_current_user),
-) -> models.User:
-    """
-    Dependency to get the current active user.
-    """
-    if not current_user.is_active:
-        raise HTTPException(status_code=400, detail="Inactive user")
-    return current_user
 
 
 async def get_current_active_superuser(
