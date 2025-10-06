@@ -228,7 +228,7 @@ class FaceService:
             embedding = np.mean(face_roi.reshape(-1, 3), axis=0).astype(np.float32)
             embedding = embedding / np.linalg.norm(embedding)  # Normalize
 
-           confidence = 0.5  # Low confidence for OpenCV fallback
+            confidence = 0.5  # Low confidence for OpenCV fallback
 
             return {
                 'face_detected': True,
