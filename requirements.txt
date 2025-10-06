@@ -3,6 +3,7 @@ fastapi
 uvicorn[standard]
 pydantic
 pydantic-settings
+pydantic[email]
 
 # Database
 psycopg2-binary
