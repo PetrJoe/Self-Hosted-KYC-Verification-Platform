@@ -1,0 +1,62 @@
+# Core FastAPI and dependencies
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Database
+psycopg2-binary
+asyncpg
+sqlalchemy
+alembic
+
+# Async tasks
+celery
+redis
+flower
+
+# Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Machine Learning & Computer Vision
+torch
+torchvision
+opencv-python-headless
+insightface
+facenet-pytorch
+pillow
+
+# OCR and Document Processing
+pytesseract
+paddlepaddle
+paddleocr
+
+# File Storage
+boto3
+minio
+
+# Security & Encryption
+cryptography
+pycryptodome
+
+# Monitoring & Logging
+prometheus-client
+structlog
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Development
+python-dotenv
+black
+isort
+flake8
+
+# Additional utilities
+aiofiles
+python-magic
+pymupdf
