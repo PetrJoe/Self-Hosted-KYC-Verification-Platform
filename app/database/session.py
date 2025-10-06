@@ -3,7 +3,7 @@ Database session configuration and connection management.
 """
 
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-from sqlalchemy ORM import sessionmaker
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import DeclarativeBase
 
 from app.core.config import settings
